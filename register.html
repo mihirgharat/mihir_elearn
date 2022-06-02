@@ -1,0 +1,78 @@
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>
+    REGISTER
+  </title>
+
+<div class="container" style="background:pink;width:500px;border-radius:20px;">
+<h1 style="color:white">Registration</h1>
+        <form method="post" action="reg.php">
+  <div class="form-group">
+    <label for="n">Name</label>
+    <input type="text" class="form-control" id="n" name="n" aria-describedby="emailHelp" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="e">Email</label>
+    <input type="email" class="form-control" id="e" name="e" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="p">Phone</label>
+    <input type="text" class="form-control" id="p" name="p" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="c">City</label>
+    <input type="text" class="form-control" id="c" name="c" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="co">Courses</label>
+    <select name="co" id="co" name="co" style="width:300px">
+        <option value="python">Python</option>
+        <option value="data science">Data Science</option>
+        <option value="web development">Full Stack Web Development</option>
+        <option value="Blockchain">Blockchain</option>
+</select>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="cl">College</label>
+    <input type="text" class="form-control" id="cl" name="cl" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="rc">Referal Code</label>
+    <input type="text" class="form-control" id="rc" name="rc" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="sm">Social media link</label>
+    <input type="url" class="form-control" id="sm" name="sm" style="width:300px"required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="il">Instagram Link</label>
+    <input type="url" class="form-control" id="il" name="il" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="lp">Linkdein Profile</label>
+    <input type="url" class="form-control" id="lp" name="lp" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="fu">File Upload</label>
+    <input type="url" class="form-control" id="fu" name="fu" style="width:300px" required/>
+  </div>
+  <br>
+  <div class="form-group">
+    <input type="checkbox" id="licence" value="I agree to all terms and conditions" required/>
+    <label for="licence">I agree to all terms and conditions</label>
+  </div>
+  <br><br>
+  <center>
+  <button type="submit" name="submit" class="btn btn-primary" style="background-color: black;">Register Now</button></center>
+</form>
+</div>
